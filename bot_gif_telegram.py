@@ -137,7 +137,6 @@ echo_handler = MessageHandler(Filters.text | Filters.command, echo)
 dispatcher.add_handler(echo_handler)
 
 
-
 # starting the bot
 updater.start_polling()
 
